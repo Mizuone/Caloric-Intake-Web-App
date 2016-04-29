@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+        overflow-x: hidden !important;
+  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    margin-top: 0.5em;
+}
+.col-sm-4 {
+    padding: 15px;
+    margin: 0px;
+    border: 1px solid black;
+}
+.container-fluid .breakfest {
+    margin-right: 0px;
+}
+.col-sm-4 .breakfest .breakfestitem, .col-sm-4 .lunch .lunchitem, .col-sm-4 .dinner .dinneritem, .col-sm-4 .snack .snackitem {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0px;
+    height: 169px;
+}
+.navbar-search input[type=text] {
+    width: 248%;
+    padding: 1em;
+}
+.itemstorage {
+    height: 747px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.caloriecontainer {
+    margin-bottom: 2.5em;
+}
+.macrocontainer h2 {
+    text-align: center
+}
+.macrocontainer input {
+    float: right;
+}

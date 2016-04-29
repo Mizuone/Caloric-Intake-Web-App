@@ -1,0 +1,100 @@
+<!Doctype HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Caloric Intake Application</title>
+        <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+        <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="screen"/>
+        <script type="text/javascript" src="javascript/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="javascript/script.js"></script>
+    </head>
+<body>
+    <header>
+    
+    
+    </header>
+    <main>
+    <div class="row-fluid"> <!--Container for entire Page-->
+        <div class="col-sm-4"> <!--Column Number 1-->
+            <h1>Caloric Values</h1>
+            <div class="container-fluid">
+                <div class="caloriecontainer">
+                    <h2>Daily Calories: <input id="calorietotal" type="text" readonly/> </h2>
+                </div>
+                <div class="macrocontainer">
+                    <h2>Macro Nutrients</h2>
+                    <h2>Protein: <input id="proteinpercent" type="text" readonly/> </h2>
+                    <h2>Carbs: <input id="carbpercent" type="text" readonly/> </h2>
+                    <h2>Fats: <input id="fatpercent" type="text" readonly/> </h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4"> <!--Column Number 2-->
+            <h1>Daily Meals</h1>
+        <div class="row"> <!--Container for each meal-->
+            <div class="col-sm-12">
+                <div class="breakfest">
+                    <h2>Breakfest</h2>
+                    <div class="container-fluid breakfestitem">
+                        <p>Item 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="lunch">
+                    <h2>Lunch</h2>
+                    <div class="container-fluid lunchitem">
+                        <p>Item 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="dinner">
+                    <h2>Dinner</h2>
+                    <div class="container-fluid dinneritem">
+                        <p>Item 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="snack">
+                    <h2>Snacks</h2>
+                    <div class="container-fluid snackitem">
+                        <p>Item 1</p>
+                    </div>
+                </div>
+            </div>
+        </div> <!--End Div for all meal containers-->
+        </div>
+        <div class="col-sm-4"> <!--Column Number 3-->
+            <h1>Food Items</h1> 
+            <div class="container-fluid">
+                <form class="navbar-search pull-left">
+                    <input type="text" class="search-query" placeholder="Search Food"/>
+                </form>
+            </div>
+            <div class="container-fluid"> 
+                <h2>Dragable Items</h2>
+                <div class="itemstorage">
+                    <p>Item</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </main>
+    <footer>
+    
+    
+    </footer>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
