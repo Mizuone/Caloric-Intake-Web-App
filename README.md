@@ -10,3 +10,5 @@ Description: This is an app that will measure your total daily calories, and mac
 - #Create Dragable items feature, to add to meal containers
 - #Dynamically update Calorie input, and Macro nutrients when food item is added to meal
 - #Test, and Debug
+- #Finish Styling Process
+- #Double Check
