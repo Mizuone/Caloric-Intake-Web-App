@@ -28,6 +28,7 @@ h2 {
     border: 1px solid black;
     margin: 0px;
     height: 169px;
+    overflow: scroll;
 }
 .navbar-search input[type=text] {
     width: 248%;
@@ -46,4 +47,12 @@ h2 {
 }
 .macrocontainer input {
     float: right;
+}
+/* Food Search Styling */
+#searchcontainer ul {
+    overflow: scroll;
+    height: 725px;
+}
+#searchcontainer ul li, #searchcontainer p {
+    cursor: pointer;
 }
