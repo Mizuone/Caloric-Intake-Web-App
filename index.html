@@ -4,10 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Caloric Intake Application</title>
-        <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
         <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="screen"/>
+        <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
         <script type="text/javascript" src="javascript/jquery-2.2.3.min.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script type="text/javascript" src="javascript/script.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     </head>
 <body>
     <header>
@@ -37,7 +39,6 @@
                 <div class="breakfest">
                     <h2>Breakfest</h2>
                     <div class="container-fluid breakfestitem">
-                        <p>Item 1</p>
                     </div>
                 </div>
             </div>
@@ -47,7 +48,6 @@
                 <div class="lunch">
                     <h2>Lunch</h2>
                     <div class="container-fluid lunchitem">
-                        <p>Item 1</p>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,6 @@
                 <div class="dinner">
                     <h2>Dinner</h2>
                     <div class="container-fluid dinneritem">
-                        <p>Item 1</p>
                     </div>
                 </div>
             </div>
@@ -67,7 +66,6 @@
                 <div class="snack">
                     <h2>Snacks</h2>
                     <div class="container-fluid snackitem">
-                        <p>Item 1</p>
                     </div>
                 </div>
             </div>
@@ -77,13 +75,15 @@
             <h1>Food Items</h1> 
             <div class="container-fluid">
                 <form class="navbar-search pull-left">
-                    <input type="text" class="search-query" placeholder="Search Food"/>
+                    <label for="search">Food Search</label>
+                    <input type="search" name="search" class="search-query" id="search" placeholder="Search Food" autofocus/>
                 </form>
             </div>
-            <div class="container-fluid"> 
+            <div class="container-fluid" id="#update"> 
                 <h2>Dragable Items</h2>
                 <div class="itemstorage">
-                    <p>Item</p>
+                    <div id="searchcontainer">
+                    </div>
                 </div>
             </div>
         </div>
@@ -94,7 +94,5 @@
     
     
     </footer>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
